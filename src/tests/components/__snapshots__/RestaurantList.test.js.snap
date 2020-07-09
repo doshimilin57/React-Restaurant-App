@@ -1,0 +1,153 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render restaurants list with empty array 1`] = `
+<div
+  className="content-container"
+>
+  <div
+    className="list-header"
+  >
+    <div
+      className="show-for-mobile"
+    >
+      Restaurants
+    </div>
+    <div
+      className="show-for-desktop"
+    >
+      Restaurant
+    </div>
+    <div
+      className="show-for-desktop"
+    >
+      Price
+    </div>
+  </div>
+  <div
+    className="list-body"
+  >
+    <div
+      className="list-item list-item--message"
+    >
+      <span>
+        No results!
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`should render restaurants list with restaurants 1`] = `
+<div
+  className="content-container"
+>
+  <div
+    className="list-header"
+  >
+    <div
+      className="show-for-mobile"
+    >
+      Restaurants
+    </div>
+    <div
+      className="show-for-desktop"
+    >
+      Restaurant
+    </div>
+    <div
+      className="show-for-desktop"
+    >
+      Price
+    </div>
+  </div>
+  <div
+    className="list-body"
+  >
+    <RestaurantListItem
+      address="169 Niagara Street"
+      area="Toronto / SW Ontario"
+      city="Toronto"
+      country="CA"
+      id={91948}
+      image_url="https://www.opentable.com/img/restimages/91948.jpg"
+      lat={43.641939}
+      lng={-79.406543}
+      mobile_reserve_url="http://mobile.opentable.com/opentable/?restId=91948"
+      name="Edulis Restaurant"
+      phone="4167034222"
+      postal_code="M5V 1C9"
+      price={3}
+      reserve_url="http://www.opentable.com/single.aspx?rid=91948"
+      state="ON"
+    />
+    <RestaurantListItem
+      address="655 Dixon Rd."
+      area="Toronto / SW Ontario"
+      city="Toronto"
+      country="CA"
+      id={44791}
+      image_url="https://www.opentable.com/img/restimages/44791.jpg"
+      lat={43.6898}
+      lng={-79.578}
+      mobile_reserve_url="http://mobile.opentable.com/opentable/?restId=44791"
+      name="Ginko Japanese Restaurant"
+      phone="4162488445"
+      postal_code="M5H 3M7"
+      price={3}
+      reserve_url="http://www.opentable.com/single.aspx?rid=44791"
+      state="ON"
+    />
+    <RestaurantListItem
+      address="1585 Dundas West"
+      area="Toronto / SW Ontario"
+      city="Toronto"
+      country="CA"
+      id={75154}
+      image_url="https://www.opentable.com/img/restimages/75154.jpg"
+      lat={43.649767}
+      lng={-79.434577}
+      mobile_reserve_url="http://mobile.opentable.com/opentable/?restId=75154"
+      name="Lula Lounge"
+      phone="4165880307"
+      postal_code="M6K 1T5"
+      price={3}
+      reserve_url="http://www.opentable.com/single.aspx?rid=75154"
+      state="ON"
+    />
+    <RestaurantListItem
+      address="214 King St. West"
+      area="Toronto / SW Ontario"
+      city="Toronto"
+      country="CA"
+      id={14806}
+      image_url="https://www.opentable.com/img/restimages/14806.jpg"
+      lat={43.647429}
+      lng={-79.386774}
+      mobile_reserve_url="http://mobile.opentable.com/opentable/?restId=14806"
+      name="Il Fornello on King"
+      phone="4169772855"
+      postal_code="M5H 3S6"
+      price={3}
+      reserve_url="http://www.opentable.com/single.aspx?rid=14806"
+      state="ON"
+    />
+    <RestaurantListItem
+      address="190 University Ave"
+      area="Toronto / SW Ontario"
+      city="Toronto"
+      country="CA"
+      id={150661}
+      image_url="https://www.opentable.com/img/restimages/150661.jpg"
+      lat={43.649368}
+      lng={-79.385921}
+      mobile_reserve_url="http://mobile.opentable.com/opentable/?restId=150661"
+      name="Momofuku DAISHŌ - Toronto"
+      phone="6472538000"
+      postal_code="M5H 0A3"
+      price={4}
+      reserve_url="http://www.opentable.com/single.aspx?rid=150661"
+      state="ON"
+    />
+  </div>
+</div>
+`;

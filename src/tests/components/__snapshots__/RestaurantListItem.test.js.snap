@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render books list item with book 1`] = `
+<div
+  className="list-item"
+>
+  <div>
+    <h3
+      className="list-item__title"
+    >
+      Edulis Restaurant
+    </h3>
+    <span
+      className="list-item__sub-title"
+    >
+      169 Niagara Street
+      , 
+      Toronto
+      , 
+      ON
+      , 
+      CA
+      , 
+      M5V 1C9
+    </span>
+  </div>
+  <h3
+    className="list-item__data"
+  >
+    $3.00
+  </h3>
+</div>
+`;

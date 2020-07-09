@@ -1,0 +1,119 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render RestaurantListFilters properly 1`] = `
+<div
+  className="content-container list-filters"
+>
+  <form
+    onSubmit={[Function]}
+  >
+    <div
+      className="input-group"
+    >
+      <div
+        className="input-group__item"
+      >
+        <input
+          aria-labelledby="lblCity"
+          className="text-input"
+          onChange={[Function]}
+          placeholder="Enter City"
+          tabindex="-1"
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        className="input-group__item"
+      >
+        <input
+          aria-labelledby="lblFilter"
+          className="text-input"
+          onChange={[Function]}
+          placeholder="Filter Data"
+          tabindex="-1"
+          type="text"
+          value=""
+        />
+      </div>
+      <div>
+        <button
+          className="button"
+          type="submit"
+        >
+          Search
+        </button>
+      </div>
+      <div>
+        <button
+          className="button button--link"
+          disabled={false}
+          onClick={[Function]}
+          type="click"
+        >
+          Show More
+        </button>
+      </div>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`should render RestaurantListFilters with altFilters properly 1`] = `
+<div
+  className="content-container list-filters"
+>
+  <form
+    onSubmit={[Function]}
+  >
+    <div
+      className="input-group"
+    >
+      <div
+        className="input-group__item"
+      >
+        <input
+          aria-labelledby="lblCity"
+          className="text-input"
+          onChange={[Function]}
+          placeholder="Enter City"
+          tabindex="-1"
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        className="input-group__item"
+      >
+        <input
+          aria-labelledby="lblFilter"
+          className="text-input"
+          onChange={[Function]}
+          placeholder="Filter Data"
+          tabindex="-1"
+          type="text"
+          value="toronto"
+        />
+      </div>
+      <div>
+        <button
+          className="button"
+          type="submit"
+        >
+          Search
+        </button>
+      </div>
+      <div>
+        <button
+          className="button button--link"
+          disabled={false}
+          onClick={[Function]}
+          type="click"
+        >
+          Show More
+        </button>
+      </div>
+    </div>
+  </form>
+</div>
+`;
